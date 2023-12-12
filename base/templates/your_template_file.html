@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% load static %}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Applight Template By W3 Template</title>
+<link rel="stylesheet" href="{% static 'https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css'}">
+<link rel="stylesheet" href="{% static 'applight/css/animate.css' %}">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="{% static 'applight/css/style.css' %}"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<!-- Font Google -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="fas fa-bars"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> <a class="nav-link" href="" data-scroll-nav="0">Home</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">About</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2">Features</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="3">Team</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="4">Testimonials</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="5">Faq</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="6">Contact</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar --> 
+<!-------Banner Start------->
+<section class="banner" data-scroll-index='0'>
+  <div class="banner-overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <div class="banner-text">
+            <h2 class="white">Reel Rider</h2>
+            <h6 class="white">Introduction</h6>
+            <p class="banner-text white">Reel Rider is an innovative project that aims to revolutionize bike riding experiences by
+              integrating advanced technology into a helmet. The helmet features a heads-up display, voice
+              command system, and call integration to enhance safety and convenience. Our project's goal is
+              to provide riders with seamless interaction with their smartphones while keeping their hands on
+              the handlebars and eyes on the road. Our project's goal is to provide bike riders to interact there
+              app directly thought helmet (by AI based voice control algorithms) which will allow them to
+              work without taking out there phone.</p>
+            
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12"> <img src="{% static 'applight/images/helmet2.jpg' %}"class="img-fluid wow fadeInUp"/> </div>
+      </div>
+    </div>
+  </div>
+  <span class="svg-wave"> <img class="svg-hero" src="{% static 'applight/images/applight-wave.svg' %}"> </span> </section>
+
+<!-------Banner End-------> 
+
+<!-------About End------->
+
+<section class="about section-padding prelative" data-scroll-index='1'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>About</h3>
+          <span class="line"></span>
+          <p>Reel Rider is a groundbreaking project that seeks to transform the biking experience through the integration of cutting-edge technology into a specially designed helmet. The primary features of this innovative helmet include a heads-up display, a voice command system, and seamless call integration, all aimed at enhancing safety and convenience for riders.</p>
+        </div>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> <i class="fa fa-header" aria-hidden="true"></i>
+                <h5>Heads Up Display</h5>
+                <p>The heads-up display offering riders real-time information without requiring them to divert their attention from the road.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.4s"> <i class="fa fa-mobile" aria-hidden="true"></i>
+                <h5>voice command</h5>
+                <p>The voice command system is another pivotal aspect of the helmet, leveraging AI-based algorithms to enable hands-free interaction with the smartphone.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"> <i class="fa fa-bolt" aria-hidden="true"></i>
+                <h5>Fast</h5>
+                <p>Experience instantaneous connectivity with our cutting-edge helmet. Our technology enables seamless interaction with your smartphone, keeping you connected with just a word.</p>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="about-btn">Learn More</a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-------About End-------> 
+
+<!-------Video Start------->
+<section class="video-section prelative text-center white">
+  <div class="section-padding video-overlay">
+    <div class="container">
+      <h3>Watch Now</h3>
+      <i class="fa fa-play" id="video-icon" aria-hidden="true"></i>
+      <div class="video-popup">
+        <div class="video-src">
+          <div class="iframe-src">
+            <iframe src="https://www.youtube.com/embed/wCfjX-KEWmA?si=z2N0elklziuaFuVe" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-------Video End-------> 
+
+<!-------Features Start------->
+<section class="feature section-padding" data-scroll-index='2'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Features</h3>
+          <span class="line"></span>
+          <p>Here are some feature of this helmet.</p>
+        </div>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                <div class="media-body text-right media-right-margin">
+                  <h5>Fast Processing</h5>
+                  <p>Reel Rider ensures swift and responsive processing. Experience instant command execution, providing a seamless and efficient biking interaction.</p>
+                </div>
+                <div class="media-right icon-border"> <span class="fa fa-bolt" aria-hidden="true"></span> </div>
+              </div>
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+                <div class="media-body text-right media-right-margin">
+                  <h5>Low Power Consuming</h5>
+                  <p>Designed with efficiency in mind, Reel Rider optimizes power consumption. Enjoy extended usage without compromising performance, making it an energy-conscious and sustainable choice for riders.</p>
+                </div>
+                <div class="media-right icon-border"> <span class="fa fa-battery-full" aria-hidden="true"></span> </div>
+              </div>
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+                <div class="media-body text-right media-right-margin">
+                  <h5>Wifi Compatibility</h5>
+                  <p>Connect seamlessly to your digital world with WiFi compatibility. Reel Rider ensures a smooth and reliable connection, allowing you to access online features effortlessly during your ride.</p>
+                </div>
+                <div class="media-right icon-border"> <span class="fa fa-wifi" aria-hidden="true"></span> </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-none d-md-block d-lg-block">
+              <div class="feature-mobile"> <img src="images/iphone-screen-with-shadow.png" class="img-fluid wow fadeInUp"/> </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                <div class="media-left icon-border media-right-margin"> <span class="fa fa-check-double" aria-hidden="true"></span> </div>
+                <div class="media-body text-left">
+                  <h5>Regular Updates</h5>
+                  <p>Stay ahead with regular software updates that bring new features and enhancements. Reel Rider is committed to keeping your biking experience fresh and up-to-date.</p>
+                </div>
+              </div>
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+                <div class="media-left icon-border media-right-margin"> <span class="fa fa-dollar-sign" aria-hidden="true"></span> </div>
+                <div class="media-body text-left">
+                  <h5>Save Money</h5>
+                  <p>Reel Rider not only enhances your biking experience but also contributes to cost savings. With its innovative features and durability, it offers a long-term solution that saves you money on additional accessories and upgrades.</p>
+                </div>
+              </div>
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+                <div class="media-left icon-border media-right-margin"> <span class="fa fa-hdd" aria-hidden="true"></span> </div>
+                <div class="media-body text-left">
+                  <h5>Unlimited Storage</h5>
+                  <p>Say goodbye to storage limitations. Reel Rider provides unlimited storage for your biking data, ensuring you never miss a moment. Capture memories, track your routes, and store essential information without worrying about running out of space</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-------Features End-------> 
+
+<!-------Team Start------->
+<section class="team section-padding" data-scroll-index='3'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Our Team</h3>
+          <span class="line"></span>
+          <p>he Reel Rider team comprises an AI Engineer spearheading intelligent features and two Technical Engineers specializing in hardware and software integration. This dynamic trio collaborates to deliver a helmet that redefines biking with fast processing, regular updates, low power consumption, WiFi compatibility, and unlimited storage. Together, they bring a seamless blend of innovation and technical prowess to elevate the biking experience..</p>
+        </div>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="{% static 'applight/images/anas.jpg' %}" class="img-fluid"/>
+                <h4>M.ANAS ALI</h4>
+                <p>Technical Engineer</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-detail wow bounce" data-wow-delay="0.4s"> <img src="{% static 'applight/images/saif.jpg' %}" class="img-fluid"/>
+                <h4>Saif ur Rehman</h4>
+                <p>AI Engineer</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-detail wow bounce" data-wow-delay="0.6s"> <img src="{% static 'applight/images/ysair1.jpg' %}" class="img-fluid"/>
+                <h4>M.Yasir Naseer</h4>
+                <p>Technical Engineer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------Team End-------> 
+
+<!-------Testimonial Start------->
+<section class="testimonial section-padding" data-scroll-index='4'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center white">
+          <h3>Testimonials</h3>
+          <span class="line"></span>
+          <p class="white"></p>
+        </div>
+    
+      <div class="section-content">
+        <div class="row">
+          <div class="offset-md-2 col-md-8 col-sm-12">
+            <div class="slider">
+              <div class="slider-item">
+                <div class="test-text"><span class="title"><span>Engr. Dr. Taimoor Zafar</span>Supervisor</span> Reel Rider will transformed my biking routine. The voice command system will be a game-changer.</div>
+              </div>
+              <div class="slider-item">
+                <div class="test-text"><span class="title"><span>Engr. Dr. Hussain</span>Teacher</span> Safety meets innovation with Reel Rider! The heads-up display keeps me informed without distractions, and the low power consumption is a bonus. This helmet has set a new standard for biking gear.</div>
+              </div>
+              <div class="slider-item">
+                <div class="test-text"><span class="title"><span>Ahmed</span></span> Night Rider </span> As a night rider, safety is my top priority. The heads-up display in the Reel Rider helmet has significantly improved my visibility on the road. It's like having a personal night vision assistant.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------Testimonial End-------> 
+
+<!-------FAQ Start------->
+<section class="faq section-padding prelative" data-scroll-index='5'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Frequently Asked Questions</h3>
+          <span class="line"></span>
+          <p>.</p>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
+              <h4>What is HUD(head up display)?</h4>
+              <p>A head-up display (HUD) is a transparent display using light-emitting diode or other display projection technology to display customizable information and images (for example, speed data and warnings)..</p>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
+              <h4>What is voice recognition (speaker recognition)?</h4>
+              <p>Voice or speaker recognition is the ability of a machine or program to receive and interpret dictation or to understand and perform spoken commands. Voice recognition has gained prominence and use with the rise of artificial intelligence (AI) and intelligent assistants.</p>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
+              <h4>What is CNN and why it is used? ?</h4>
+              <p>Ut vestibulum euismod aliquet. Quisque nec malesuada nibh. Vivamus euismod nunc eu leo faucibus, vel elementum justo posuere. In sed varius nisi. Curabitur id porta ipsum, et vestibulum dui.</p>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
+              <h4>What is AI??</h4>
+              <p>Artificial intelligence is the science of making machines that can think like humans. It can do things that are considered "smart." AI technology can process large amounts of data in ways, unlike humans. .</p>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
+              <h4>What is CNN and why it is used?</h4>
+              <p>A convolutional neural network (CNN) is a network architecture for deep learning that learns directly from data. CNNs are particularly useful for finding patterns in images to recognize objects, classes, and categories. They can also be quite effective for classifying audio, time-series, and signal data..</p>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
+              <h4>What does OpenAI do??</h4>
+              <p>OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity..</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------FAQ End-------> 
+
+<!-------Contact Start------->
+<section class="contact section-padding" data-scroll-index='6'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Contact us</h3>
+          <span class="line"></span>
+          <p>.</p>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8">
+              <form id="contact_form" action="">
+                <div class="row">
+                  <div class="col">
+                    <input type="text" id="your_name" class="form-input w-100" name="full-name" placeholder="Full Name" required>
+                  </div>
+                  <div class="col">
+                    <input type="email" id="email" class="form-input w-100" name="email" placeholder="Email" required>
+                  </div>
+                </div>
+                <input type="text" id="subject" class="form-input w-100" name="subject" placeholder="Subject">
+                <textarea class="form-input w-100" id="message" placeholder="Message" name="message"></textarea>
+                <button class="btn-grad w-100 text-uppercase" type="submit" name="button">submit</button>
+              </form>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="contact-info white">
+                <div class="contact-item media"> <i class="fa fa-map-marker-alt media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">Address</p>
+                    <p class="text-uppercase">yaseenabad,karachi</p>
+                  </div>
+                </div>
+                <div class="contact-item media"> <i class="fa fa-mobile media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">Phone</p>
+                    <p class="text-uppercase"><a class="text-white" href="tel:+15173977100">03312555190</a> </p>
+                  </div>
+                </div>
+                <div class="contact-item media"> <i class="fa fa-envelope media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">E-mail</p>
+                    <p class="text-uppercase"><a class="text-white" href="mailto:abcdefg@gmail.com">saif.sr169@gmail.com</a> </p>
+                  </div>
+                </div>
+                <div class="contact-item media"> <i class="fa fa-clock media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">Working Hours</p>
+                    <p class="text-uppercase">Mon-Fri 9.00 AM to 5.00PM.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------Contact End-------> 
+
+<!-------Download End------->
+<section class="download section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center white">
+          <h3>Download Our App</h3>
+          <span class="line"></span>
+          <p class="white">Feel free to download our app.</p>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="section-content text-center">
+          <ul>
+            <li><a href="#"><img src="{% static 'applight/images/playstore.png' %}" class="wow fadeInUp" data-wow-delay="0.7s"/></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------Download End------->
+
+<footer class="footer-copy">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <p><a href="http://w3Template.com" target="_blank" rel="dofollow">W3 Template</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+<!-- scrollIt js --> 
+<script src="{% static 'applight/js/scrollIt.min.js' %}"></script> 
+<script src="{% static 'applight/js/wow.min.js' %}"></script> 
+<script>
+	wow = new WOW();
+	wow.init();
+$(document).ready(function(e) {
+
+	$('#video-icon').on('click',function(e){
+	e.preventDefault();
+	$('.video-popup').css('display','flex');
+	$('.iframe-src').slideDown();
+	});
+	$('.video-popup').on('click',function(e){
+	var $target = e.target.nodeName;
+	var video_src = $(this).find('iframe').attr('src');
+	if($target != 'IFRAME'){
+	$('.video-popup').fadeOut();
+	$('.iframe-src').slideUp();
+	$('.video-popup iframe').attr('src'," ");
+	$('.video-popup iframe').attr('src',video_src);
+	}
+	});
+
+	$('.slider').bxSlider({
+	pager: false
+	});
+});
+    
+$(window).on("scroll",function () {
+
+	var bodyScroll = $(window).scrollTop(),
+	navbar = $(".navbar");
+	
+	if(bodyScroll > 50){
+	$('.navbar-logo img').attr('src','images/logo-black.png');
+	navbar.addClass("nav-scroll");
+
+}else{
+	$('.navbar-logo img').attr('src','images/logo.png');
+	navbar.removeClass("nav-scroll");
+}
+
+});
+$(window).on("load",function (){
+	var bodyScroll = $(window).scrollTop(),
+	navbar = $(".navbar");
+	
+	if(bodyScroll > 50){
+	$('.navbar-logo img').attr('src','images/logo-black.png');
+	navbar.addClass("nav-scroll");
+	}else{
+	$('.navbar-logo img').attr('src','images/logo-white.png');
+	navbar.removeClass("nav-scroll");
+	}
+
+	$.scrollIt({
+	
+	easing: 'swing',      // the easing function for animation
+	scrollTime: 900,       // how long (in ms) the animation takes
+	activeClass: 'active', // class given to the active nav element
+	onPageChange: null,    // function(pageIndex) that is called when page is changed
+	topOffset: -63
+	});
+});
+
+</script>
+</body>
+</html>
